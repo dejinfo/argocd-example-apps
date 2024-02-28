@@ -4,7 +4,7 @@ metadata:
   name: guestbook-ui
   namespace: tharunerpdev
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: guestbook-ui  # Match labels with your Deployment
   ports:
