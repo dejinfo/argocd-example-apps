@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: erptharun.net  # Replace with your domain or MetalLB-assigned IP
+  - host: erp.tharun.net  # Replace with your domain or MetalLB-assigned IP
     http:
       paths:
       - path: /
